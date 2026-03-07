@@ -117,9 +117,11 @@ For layer activations
 (h^{(t)}):
 ```
 
+```math
 [
 \mathrm{Uncertainty} = \frac{1}{T} \sum_{t=1}^{T} ||h^{(t)} - \bar{h}||^2
 ]
+```
 
 Higher uncertainty values trigger higher precision. However we found this method to be inferior to others listed.
 
