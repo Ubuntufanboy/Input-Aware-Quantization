@@ -1,0 +1,11 @@
+
+# VisDrone-2019 dataset configuration
+# Download command: curl -L "https://github.com/ultralytics/yolov5/releases/download/v1.0/VisDrone2019-DET.zip" -o VisDrone.zip && unzip VisDrone.zip -d ../datasets && rm VisDrone.zip
+
+path: ../datasets/VisDrone  # dataset root dir
+train: train/images  # train images (relative to 'path')
+val: val/images  # val images (relative to 'path')
+
+# Classes
+nc: 10  # number of classes
+names: ['pedestrian', 'person', 'car', 'van', 'bus', 'truck', 'motor', 'bicycle', 'awning-tricycle', 'tricycle']

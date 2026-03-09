@@ -1,0 +1,1 @@
+Data is contained here. Data was removed from directory due to size contraints on GitHub. You can download CIFAR-10 and MNIST here to validate results
